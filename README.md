@@ -1,4 +1,4 @@
-# Web scraper interview
+# Web scraper
 
 ## Problem
 
