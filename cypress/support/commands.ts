@@ -44,3 +44,14 @@ Cypress.Commands.add('clearField', (el) => {
 Cypress.Commands.add('firstClick', (el) => {
     return cy.get(`${el}`).first().click();
 });
+
+Cypress.Commands.add('getValueFromLabel', (label) => {
+    // you can disable individual command logging
+    // by passing {log: false} option
+    cy.log('**getValueFromLabel**')
+    cy.contains('label', label)
+        .invoke('attr', 'for')
+        .then((id) => {
+            cy.get('#' + id)
+        })
+  })

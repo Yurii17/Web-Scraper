@@ -84,7 +84,13 @@ declare namespace Cypress {
          * @param el 
          * @param value 
          */
-        waitValue(el: string, value: string | number): void      
+        waitValue(el: string, value: string | number): void     
+        
+        /**
+         * 
+         * @param label 
+         */
+        getValueFromLabel(label: string): any
 
     }
 }

@@ -8,19 +8,6 @@ export default defineConfig({
   animationDistanceThreshold: 100,
   chromeWebSecurity: false,
   screenshotsFolder: 'cypress/output',
-  reporter: 'mochawesome',
-  reporterOptions: {
-    mochaFile: 'results/my-test-output-[hash].xml',
-    reporterEnabled: 'mochawesome-reporter, mocha-junit-reporter',
-    cypressMochawesomeReporterReporterOptions: {
-      reportDir: 'cypress/reports',
-      charts: true,
-      overwrite: false,
-      reportPageTitle: 'My Test Suite',
-      embeddedScreenshots: true,
-      inlineAssets: true
-    }
-  },
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here

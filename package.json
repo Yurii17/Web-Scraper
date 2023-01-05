@@ -4,7 +4,7 @@
   "description": "Environment for web scraper interviews",
   "main": "index.js",
   "scripts": {
-    "test":  "cypress run --spec",
+    "test": "cypress run --spec",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
@@ -15,9 +15,11 @@
   "author": "Medallion",
   "homepage": "https://github.com/trymedallion/interview_web_scraper#readme",
   "dependencies": {
-    "cypress": "^12.0.1"
+    "cypress": "^12.0.1",
+    "lodash.isequal": "^4.5.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "typescript": "^4.9.4"
   }
 }
