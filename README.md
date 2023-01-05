@@ -1,8 +1,8 @@
 # Web scraper
 
-## Problem
+## Task
 
-We want to use the [Massachusetts Board of Registration in Medicine](https://findmydoctor.mass.gov/) to verify a license
+Use the [Massachusetts Board of Registration in Medicine](https://findmydoctor.mass.gov/) to verify a license
 we receive as input. 
 
 Write a web scraper that takes input at [cypress/fixtures/input.json](cypress/fixtures/input.json) in the form of:
